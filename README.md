@@ -1,2 +1,2 @@
 # RDFExplorer
-RDFExplorer is an simple and easy visual interface to explore RDF data. 
+RDFExplorer is a simple and easy visual interface to explore RDF data. 
