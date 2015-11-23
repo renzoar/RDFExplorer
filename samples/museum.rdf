@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+   xmlns:dbpprop="http://dbpedia.org/property/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:nodeID="f962231db60ed45c2bfc4983d03fc28d4b1">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    <dbpprop:country>Italy</dbpprop:country>
+    <dbpprop:commonName>Florence</dbpprop:commonName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Mona_Lisa">
+    <dbpprop:title>Mona Lisa</dbpprop:title>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Painting"/>
+    <dbpedia-owl:author rdf:resource="http://dbpedia.org/resource/Leonardo_da_Vinci"/>
+    <dbpprop:type>Oil on poplar</dbpprop:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Madonna_of_the_Stairs">
+    <dbpedia-owl:author rdf:resource="http://dbpedia.org/resource/Michelangelo"/>
+    <dbpprop:title>Madonna of the Stairs</dbpprop:title>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Sculpture"/>
+    <dbpprop:type>Marble</dbpprop:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Michelangelo">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Sculptor"/>
+    <dbpedia-owl:birthPlace rdf:nodeID="f962231db60ed45c2bfc4983d03fc28d4b1"/>
+    <dbpprop:name>Michelangelo Buonarroti</dbpprop:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Leonardo_da_Vinci">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Painter"/>
+    <dbpprop:name>Leonardo da Vinci</dbpprop:name>
+    <dbpedia-owl:birthPlace rdf:nodeID="f962231db60ed45c2bfc4983d03fc28d4b1"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,60 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix dbpedia-owl: <http://dbpedia.org/ontology/> .
+@prefix dbpprop: <http://dbpedia.org/property/> .
+
+dbpedia-owl:Artist rdf:type rdfs:Class .
+dbpedia-owl:Artist rdfs:label "Artist" .
+
+dbpedia-owl:Painter rdf:type rdfs:Class .
+dbpedia-owl:Painter rdfs:label "Painter" .
+dbpedia-owl:Painter rdfs:subClassOf dbpedia-owl:Artist .
+
+dbpedia-owl:Sculptor rdf:type rdfs:Class .
+dbpedia-owl:Sculptor rdfs:label "Sculptor" .
+dbpedia-owl:Sculptor rdfs:subClassOf dbpedia-owl:Artist .
+
+dbpedia-owl:Artwork rdf:type rdfs:Class .
+dbpedia-owl:Artwork rdfs:label "A work of art" .
+
+dbpedia-owl:Painting rdf:type rdfs:Class .
+dbpedia-owl:Painting rdfs:label "Painting" .
+dbpedia-owl:Painting rdfs:subClassOf dbpedia-owl:Artwork .
+
+dbpedia-owl:Sculpture rdf:type rdfs:Class .
+dbpedia-owl:Sculpture rdfs:label "Sculpture" .
+dbpedia-owl:Sculpture rdfs:subClassOf dbpedia-owl:Artwork .
+
+dbpedia-owl:author rdf:type rdf:Property .
+dbpedia-owl:author rdfs:label "author of" .
+dbpedia-owl:author rdfs:domain dbpedia-owl:Artwork .  
+dbpedia-owl:author rdfs:range dbpedia-owl:Artist .
+
+dbpprop:type rdf:type rdf:Property .
+dbpprop:type rdfs:label "type" .
+dbpprop:type rdfs:domain dbpedia-owl:Artwork .  
+dbpprop:type rdfs:range rdfs:Literal .
+
+dbpedia-owl:birthPlace rdf:type rdf:Property .
+dbpedia-owl:birthPlace rdfs:label "place of birth" .
+dbpedia-owl:birthPlace rdfs:domain dbpedia-owl:Artist .  
+dbpedia-owl:birthPlace rdfs:range dbpedia-owl:Place .
+
+dbpedia-owl:creates rdf:type rdf:Property .
+dbpedia-owl:creates rdfs:label "creator of" .
+dbpedia-owl:creates rdfs:domain dbpedia-owl:Artist .
+dbpedia-owl:creates rdfs:range dbpedia-owl:Artwork .
+
+dbpedia-owl:paints rdf:type rdf:Property .
+dbpedia-owl:paints rdfs:label "paints" .
+dbpedia-owl:paints rdfs:domain dbpedia-owl:Painter .
+dbpedia-owl:paints rdfs:range dbpedia-owl:Painting .
+dbpedia-owl:paints rdfs:subPropertyOf dbpedia-owl:creates .
+
+dbpedia-owl:sculpts rdf:type rdf:Property .
+dbpedia-owl:sculpts rdfs:label "paints" .
+dbpedia-owl:sculpts rdfs:domain dbpedia-owl:Sculptor .
+dbpedia-owl:sculpts rdfs:range dbpedia-owl:Sculpture .
+dbpedia-owl:sculpts rdfs:subPropertyOf dbpedia-owl:creates .
+

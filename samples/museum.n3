@@ -1,0 +1,27 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix dbpedia-owl: <http://dbpedia.org/ontology/> .
+@prefix dbpprop: <http://dbpedia.org/property/> .
+
+dbpedia:Leonardo_da_Vinci rdf:type dbpedia-owl:Painter .
+dbpedia:Leonardo_da_Vinci dbpprop:name "Leonardo da Vinci" .
+dbpedia:Leonardo_da_Vinci dbpedia-owl:birthPlace _:b1 .
+
+dbpedia:Michelangelo rdf:type dbpedia-owl:Sculptor .
+dbpedia:Michelangelo dbpprop:name "Michelangelo Buonarroti" .
+dbpedia:Michelangelo dbpedia-owl:birthPlace _:b1 .
+
+dbpedia:Mona_Lisa rdf:type dbpedia-owl:Painting .
+dbpedia:Mona_Lisa dbpprop:title "Mona Lisa" .
+dbpedia:Mona_Lisa dbpedia-owl:author dbpedia:Leonardo_da_Vinci .
+dbpedia:Mona_Lisa dbpprop:type "Oil on poplar" .
+
+dbpedia:Madonna_of_the_Stairs rdf:type dbpedia-owl:Sculpture .
+dbpedia:Madonna_of_the_Stairs dbpprop:title "Madonna of the Stairs" .
+dbpedia:Madonna_of_the_Stairs dbpedia-owl:author dbpedia:Michelangelo .
+dbpedia:Madonna_of_the_Stairs dbpprop:type "Marble" .
+
+_:b1 rdf:type dbpedia-owl:Place .
+_:b1 dbpprop:commonName "Florence" .
+_:b1 dbpprop:country "Italy" .

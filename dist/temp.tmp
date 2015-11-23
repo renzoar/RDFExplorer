@@ -1,0 +1,30 @@
+--------------------------------------------------------------------------------------------------------------------------------
+| x                                      | y                                          | z                                      |
+================================================================================================================================
+| <http://www.socialnetwork.org/person2> | <http://www.socialnetwork.org/type>        | <http://www.socialnetwork.org/Person>  |
+| <http://www.socialnetwork.org/person2> | <http://www.socialnetwork.org/name>        | "Rachel"                               |
+| <http://www.socialnetwork.org/person2> | <http://www.socialnetwork.org/age>         | "26"                                   |
+| <http://www.socialnetwork.org/person2> | <http://www.socialnetwork.org/friend>      | <http://www.socialnetwork.org/person1> |
+| <http://www.socialnetwork.org/person2> | <http://www.socialnetwork.org/friend>      | <http://www.socialnetwork.org/person3> |
+| <http://www.socialnetwork.org/person2> | <http://www.socialnetwork.org/friend>      | <http://www.socialnetwork.org/person4> |
+| <http://www.socialnetwork.org/person2> | <http://www.socialnetwork.org/marriedWith> | <http://www.socialnetwork.org/person1> |
+| <http://www.socialnetwork.org/person1> | <http://www.socialnetwork.org/type>        | <http://www.socialnetwork.org/Person>  |
+| <http://www.socialnetwork.org/person1> | <http://www.socialnetwork.org/name>        | "Ross"                                 |
+| <http://www.socialnetwork.org/person1> | <http://www.socialnetwork.org/age>         | "34"                                   |
+| <http://www.socialnetwork.org/person1> | <http://www.socialnetwork.org/friend>      | <http://www.socialnetwork.org/person2> |
+| <http://www.socialnetwork.org/person1> | <http://www.socialnetwork.org/friend>      | <http://www.socialnetwork.org/person3> |
+| <http://www.socialnetwork.org/person1> | <http://www.socialnetwork.org/friend>      | <http://www.socialnetwork.org/person4> |
+| <http://www.socialnetwork.org/person1> | <http://www.socialnetwork.org/marriedWith> | <http://www.socialnetwork.org/person2> |
+| <http://www.socialnetwork.org/person4> | <http://www.socialnetwork.org/type>        | <http://www.socialnetwork.org/Person>  |
+| <http://www.socialnetwork.org/person4> | <http://www.socialnetwork.org/name>        | "Phoebe"                               |
+| <http://www.socialnetwork.org/person4> | <http://www.socialnetwork.org/age>         | "26"                                   |
+| <http://www.socialnetwork.org/person4> | <http://www.socialnetwork.org/friend>      | <http://www.socialnetwork.org/person1> |
+| <http://www.socialnetwork.org/person4> | <http://www.socialnetwork.org/friend>      | <http://www.socialnetwork.org/person2> |
+| <http://www.socialnetwork.org/person4> | <http://www.socialnetwork.org/friend>      | <http://www.socialnetwork.org/person3> |
+| <http://www.socialnetwork.org/person3> | <http://www.socialnetwork.org/type>        | <http://www.socialnetwork.org/Person>  |
+| <http://www.socialnetwork.org/person3> | <http://www.socialnetwork.org/name>        | "Joey"                                 |
+| <http://www.socialnetwork.org/person3> | <http://www.socialnetwork.org/age>         | "30"                                   |
+| <http://www.socialnetwork.org/person3> | <http://www.socialnetwork.org/friend>      | <http://www.socialnetwork.org/person1> |
+| <http://www.socialnetwork.org/person3> | <http://www.socialnetwork.org/friend>      | <http://www.socialnetwork.org/person2> |
+| <http://www.socialnetwork.org/person3> | <http://www.socialnetwork.org/friend>      | <http://www.socialnetwork.org/person4> |
+--------------------------------------------------------------------------------------------------------------------------------

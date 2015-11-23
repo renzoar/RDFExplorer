@@ -1,0 +1,31 @@
+@prefix sn: <http://www.socialnetwork.org/> .
+
+sn:person1 sn:type sn:Person .
+sn:person1 sn:name "Ross" .
+sn:person1 sn:age "34" .
+sn:person1 sn:friend sn:person2 .
+sn:person1 sn:friend sn:person3 .
+sn:person1 sn:friend sn:person4 .
+sn:person1 sn:marriedWith sn:person2 .
+
+sn:person2 sn:type sn:Person .
+sn:person2 sn:name "Rachel" .
+sn:person2 sn:age "26" .
+sn:person2 sn:friend sn:person1 .
+sn:person2 sn:friend sn:person3 .
+sn:person2 sn:friend sn:person4 .
+sn:person2 sn:marriedWith sn:person1 .
+
+sn:person3 sn:type sn:Person .
+sn:person3 sn:name "Joey" .
+sn:person3 sn:age "30" .
+sn:person3 sn:friend sn:person1 .
+sn:person3 sn:friend sn:person2 .
+sn:person3 sn:friend sn:person4 .
+
+sn:person4 sn:type sn:Person .
+sn:person4 sn:name "Phoebe" .
+sn:person4 sn:age "26" .
+sn:person4 sn:friend sn:person1 .
+sn:person4 sn:friend sn:person2 .
+sn:person4 sn:friend sn:person3 .
